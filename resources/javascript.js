@@ -1,3 +1,6 @@
 // Your Javascript will go here!
-
-alert ('Brace yourself for amazingness')
+$(document).ready(function() {
+  	$("#copyright").click(function(){ 
+  		$(this).css('color','purple'); 
+	});
+});

@@ -3,6 +3,26 @@
  * 
  */
 
+#nav {
+	width: 200px;
+	float: left;
+	/*margin-left: 10px;*/
+	padding-right: 50px;
+}
+
+#main {
+	width: 600px;
+	float: left;
+	border-left: 1px solid gray;
+	padding-left: 50px;
+}
+
+img {
+	width: 200px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 2px;
+}
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	background: #f4f4f4;
@@ -33,17 +53,7 @@ a:hover {
 
 #header  {
 	border-bottom: 1px solid #999;
-}
-
-#nav {
-	margin: 0 20px 0 0;
-  /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
-}
-
-#main {
-	margin: 0;
-  /*  CHALLENGE 3: how could you get this to float to the left side of the screen? */
-  /* CHALLENGE 2: how could you give this element a one-pixel border down its left side? */
+	margin-bottom: 40px;
 }
 
 #copyright {
